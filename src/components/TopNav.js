@@ -1,5 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {MDBAnimation } from "mdbreact";
 import { Button } from 'react-bootstrap';
 
 class TopNav extends React.Component {
@@ -7,6 +8,7 @@ class TopNav extends React.Component {
         return (
            <div className="top-content">
                <div className="row">
+               
                    <div className="col-lg-8">
                      <div className="row about-image">
                      <div className="about-pic col-lg-4">
@@ -22,11 +24,12 @@ class TopNav extends React.Component {
                      </div>
                     </div>
                    </div>
+                   
                    <div className="col-lg-4">
                      <div className="button-div">
                          <div className="row">
                              <div className="col-sm-12">
-                             <Button className="button-1"  variant="success"><i class="fas fa-arrow-circle-right"></i> Resume</Button>{' '}
+                             <Button className="button-1"  variant="success" href={require("./Images/resume.png")}><i class="fas fa-arrow-circle-right"></i> Resume</Button>{' '}
                              <Button className="button-2" href="mailto:yash.19je0936@mech.iitism.ac.in"  variant="success"> <i class="fab fa-telegram-plane"></i> Contact Me</Button>{' '}
                              </div>
                              

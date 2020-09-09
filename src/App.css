@@ -159,6 +159,16 @@ h5 {
   background-color: #5fcb71;
   opacity: 0.8;
 }
+.chakra {
+  width: 70%;
+  background-color: #5fcb71;
+  opacity: 0.8;
+}
+.mdbootstrap {
+  width: 90%;
+  background-color: #5fcb71;
+  opacity: 0.8;
+}
 .node {
   width: 70%;
   background-color: #5fcb71;
@@ -281,6 +291,21 @@ h5 {
   }
   
   
+}
+.typewriter-col {
+  background: #282C35;
+  padding-left: 200px;
+}
+.typewriter-div {
+  background-color: #282C35;
+  text-align: center !important;
+}
+.bit-img {
+  width: 80px;
+  height: 80px;
+}
+.bit-div {
+  text-align: center;
 }
 
 /* Mobile view ends */
