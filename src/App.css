@@ -236,6 +236,11 @@ h5 {
   color: white;
   text-align: center;
 }
+.footer-game {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
 .footer-p {
   padding-top: 10px;
 }
