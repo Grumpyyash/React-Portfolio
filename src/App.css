@@ -249,6 +249,28 @@ h5 {
 
 /* Mobile View starts */
 
+@media only screen and (min-width: 600px) and (max-width: 990px){
+  .acm-project {
+    width: 600px;
+    height: auto;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+}
+@media only screen and (min-width: 1295px) and (max-width: 1500px){
+  .acm-project {
+    width: 600px;
+    height: auto;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+}
+@media only screen and (min-width: 990px) and (max-width: 1294px){
+  .acm-project {
+    width: 500px;
+    height: auto;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+}
+
 @media only screen and (max-width: 600px){
   .acm-project {
     width: 250px;

@@ -97,7 +97,7 @@ class Projects extends React.Component {
                       <div className="text-area">
                         <div className="text-area-image col-lg-12">
                         <a href="https://lmcp4.csb.app/"><img className="acm-project" src={require("./Images/keeper.png")} alt="ACM-pic"/></a><br /><br />
-                        <h5>Musically Website</h5><br />
+                        <h5>Keeper App</h5><br />
                         <Button href="https://github.com/Grumpyyash/Keeper-React" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
                         <Button href="https://lmcp4.csb.app/" className="button-1"  variant="success">Live Site</Button>{' '}
                         </div>
