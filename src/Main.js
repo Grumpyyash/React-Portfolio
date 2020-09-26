@@ -2,6 +2,7 @@ import React from "react";
 import TypeWriter from "./components/TypeWriter";
 import MainContent from "./components/MainContent";
 import TopNav from "./components/TopNav";
+import Blog from "./components/Blog";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 class Main extends React.Component {
@@ -11,7 +12,8 @@ class Main extends React.Component {
                <div>
                    <Switch>
                      
-				     <Route path="/" exact component={MainContent} />
+				     <Route path="/" component={MainContent} />
+                     <Route path="/blog" exact component={Blog} />
                    </Switch>
                </div>
            </BrowserRouter>

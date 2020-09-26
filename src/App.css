@@ -316,6 +316,30 @@ h5 {
   .coding-platform {
     padding-bottom: 20px;
   }
+  .input-name {
+    width: 80%;
+    background-color: transparent;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid white;
+  }
+  .input-email {
+    width: 80%;
+    background-color: transparent;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid white;
+  }
+  .input-message {
+    width: 80%;
+    background-color: transparent;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid white;
+  }
   
   
 }
@@ -336,3 +360,203 @@ h5 {
 }
 
 /* Mobile view ends */
+
+.testimonial-main {
+  text-align: center;
+  background-color: transparent !important;
+  margin-top: 1%;
+  margin-bottom: 4%;
+}
+.testimonial-img {
+  border-radius: 40px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.test-person {
+  color: white;
+}
+.hr-row {
+  color: white;
+}
+.test-div {
+  text-align: center;
+  margin-top: 2%;
+}
+.contact-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-mail {
+  text-align: center;
+}
+.test-h5 {
+  font-size: 35px;;
+}
+.input-name {
+  width: 40%;
+  background-color: transparent;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid white;
+}
+.input-email {
+  width: 40%;
+  background-color: transparent;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid white;
+}
+.input-message {
+  width: 40%;
+  background-color: transparent;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid white;
+}
+.submit-button {
+  color: white;
+  margin-bottom: 20px;
+}
+::placeholder {
+   padding-left: 10px;
+}
+.blog-main {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.anchor-blog {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
+.anchor-blog:hover {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
+.review-div {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  border-radius: 28px;
+}
+.review-main {
+  text-align: center !important;
+}
+.review-all {
+  text-align: center;
+}
+.review-head {
+  text-align: center;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.review-head-h5 {
+  font-size: 20px;
+}
+
+.formWrapper{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.noteButton{
+  border: none;
+  margin: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 8px 24px;
+  font-size: 1em;
+  font-family: 'Droid Sans', sans-serif;
+  background-color: #019875;
+  color: #fff;
+  transition: 0.2s ease-out;
+}
+
+.noteInput{
+    
+  min-width: 800px;
+  font-size: 1.3em;
+  padding-left: 20px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-family: 'Droid Sans', sans-serif;
+  background-color: rgba(34,49,63,0.8);
+  color: #fff;
+  transition: 0.2s ease-out;
+}
+
+.noteInput:focus{
+  background-color: #E4F1FE;
+  color: #111;
+  transition: 0.2s ease-in;
+}
+
+/*Blog start */
+.notesWrapper {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100% !important;
+}
+
+.notesHeader {
+  display: flex;
+  flex: 1 1 5%;
+  min-height: 2.5em;
+  max-height: 2em;
+  font-size: 2em;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  align-content: center;
+  padding:20px 0px 20px 0px;
+  margin-bottom: 6px;
+  background-color: rgba(0,0,0,0.5);
+  text-shadow: 3px 3px 10px #000;
+  display: block;
+}
+
+.notesBody {
+  padding-top: 24px;
+  display: flex;
+  flex: 1 1 85%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.notesFooter {
+  display: flex;
+  flex: 1 1 5%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.notes-body {
+  width: 100%;
+  min-height:100%;
+  background:
+    linear-gradient(-45deg, rgba(0,0,0,0.3), rgba(0, 40, 105, 0.8)),
+    url("https://images.unsplash.com/photo-1545697965-ce0762ce4bd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.notes-html {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.notes-layout {
+  height: 100%;
+}

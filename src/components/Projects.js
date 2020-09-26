@@ -18,7 +18,7 @@ class Projects extends React.Component {
                       <h3 className="text-area-h3">Latest Project</h3><br />                     
                       <div className="text-area">
                         <div className="text-area-image col-lg-12">
-                        <a href="https://acm-iit-dhanbad.netlify.app/"><img className="acm-project" src={require("./Images/acm-port.png")} alt="ACM-pic"/></a><br /><br />
+                        <a href="https://acm-iit-dhanbad.netlify.app/"><img className="acm-project" src={require("./Images/acm-port.png")} alt="acm-iit-dhanabd"/></a><br /><br />
                         <h5>ACM-IIT(ISM) Dhanbad official Website</h5><br />
                         <Button href="https://github.com/Hirdeshgupta/Website-of-ACM-In-IIT-ISM-DHANBAD" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
                         <Button href="https://acm-iit-dhanbad.netlify.app/" className="button-1"  variant="success">Live Site</Button>{' '}
@@ -37,7 +37,7 @@ class Projects extends React.Component {
                       <h3 className="text-area-h3">MERN-Project</h3>                      
                       <div className="text-area">                      
                         <div className="text-area-image col-lg-12">
-                        <a href="https://shielded-caverns-83501.herokuapp.com/"><img className="acm-project" src={require("./Images/Admit-it.png")} alt="ACM-pic"/></a><br /><br />
+                        <a href="https://shielded-caverns-83501.herokuapp.com/"><img className="acm-project" src={require("./Images/Admit-it.png")} alt="admit-it"/></a><br /><br />
                         <h5>Admit-it: a Confession Site</h5><br />
                         <Button href="https://github.com/Grumpyyash/Admit-IT" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
                         <Button href="https://shielded-caverns-83501.herokuapp.com/" className="button-1"  variant="success">Live Site</Button>{' '}
@@ -57,7 +57,7 @@ class Projects extends React.Component {
                       <h3 className="text-area-h3">MERN-Project</h3><br />                      
                       <div className="text-area">
                         <div className="text-area-image col-lg-12">
-                        <a href="https://sleepy-retreat-60004.herokuapp.com/"><img className="acm-project" src={require("./Images/Re-engine.png")} alt="ACM-pic"/></a><br /><br />
+                        <a href="https://sleepy-retreat-60004.herokuapp.com/"><img className="acm-project" src={require("./Images/Re-engine.png")} alt="reengine-it"/></a><br /><br />
                         <h5>Re-Engine IT</h5><br />
                         <Button href="https://github.com/Grumpyyash/ReEngine-IT-MERN" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
                         <Button href="https://sleepy-retreat-60004.herokuapp.com/" className="button-1"  variant="success">Live Site</Button>{' '}
@@ -77,7 +77,7 @@ class Projects extends React.Component {
                       <span className="org-name">*PC-recommended</span><br /><br />                      
                       <div className="text-area">
                         <div className="text-area-image col-lg-12">
-                        <a href="https://grumpyyash.github.io/My-music-player/#"><img className="acm-project" src={require("./Images/music-port.png")} alt="ACM-pic"/></a><br /><br />
+                        <a href="https://grumpyyash.github.io/My-music-player/#"><img className="acm-project" src={require("./Images/music-port.png")} alt="google-music-player"/></a><br /><br />
                         <h5>Musically Website</h5><br />
                         <Button href="https://github.com/Grumpyyash/My-music-player" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
                         <Button href="https://grumpyyash.github.io/My-music-player/#" className="button-1"  variant="success">Live Site</Button>{' '}
@@ -96,7 +96,7 @@ class Projects extends React.Component {
                       <h3 className="text-area-h3">Project</h3>                      
                       <div className="text-area">
                         <div className="text-area-image col-lg-12">
-                        <a href="https://lmcp4.csb.app/"><img className="acm-project" src={require("./Images/keeper.png")} alt="ACM-pic"/></a><br /><br />
+                        <a href="https://lmcp4.csb.app/"><img className="acm-project" src={require("./Images/keeper.png")} alt="google-keep"/></a><br /><br />
                         <h5>Keeper App</h5><br />
                         <Button href="https://github.com/Grumpyyash/Keeper-React" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
                         <Button href="https://lmcp4.csb.app/" className="button-1"  variant="success">Live Site</Button>{' '}
