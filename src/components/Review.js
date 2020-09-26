@@ -37,7 +37,7 @@ class Review extends React.Component {
     }
     render(){
         return(
-            <div className="wow bounceIn">
+            <div className="">
             <div className="review-head">
                 <h5 className="review-head-h5">REVIEW THE PORTFOLIO <i class="fas fa-balance-scale"></i></h5>
                 <p>Constructive criticism is always welcome </p>

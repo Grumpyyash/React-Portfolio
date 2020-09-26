@@ -27,7 +27,7 @@ class MainContent extends React.Component {
                <Contact />
              </div>
              <div className="blog-main">
-               <h5>Have got something for me? Show off your Technical Blogs</h5>
+               <h5>Have got something for me? Show off your Technical Blogs <i class="fas fa-cog"></i></h5>
                <button type="" class="btn btn-outline-success submit-button"><a className="anchor-blog" href="/blog">WRITE A BLOG</a></button>
              </div>
              <div className="">
