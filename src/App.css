@@ -482,6 +482,7 @@ h5 {
 }
 
 .noteInput{
+  max-width: 300px;
   font-size: 1.3em;
   padding-left: 20px;
   border-top-left-radius: 4px;
