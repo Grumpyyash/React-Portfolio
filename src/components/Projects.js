@@ -12,6 +12,9 @@ class Projects extends React.Component {
     render() {
         return (
             <div>
+
+
+
             <div className="row wow bounceIn">
                       <div className=" col-lg-12">
                       <div className="about-me col-lg-10">
@@ -28,6 +31,26 @@ class Projects extends React.Component {
                         </p>
                       </div>                      
                       </div>
+                      </div>
+                  </div>
+
+                  <div className="row wow bounceIn">
+                      <div className=" col-lg-12">                     
+                      <div className="about-me col-lg-10">
+                      <h3 className="text-area-h3">Hackathon Project</h3>                      
+                      <div className="text-area">                      
+                        <div className="text-area-image col-lg-12">
+                        <a href="https://github.com/Grumpyyash/MediFast"><img className="acm-project" src={require("./Images/medifast-img.png")} alt="Medifast"/></a><br /><br />
+                        <h5>Medifast: A Healthcare Application</h5><br />
+                        <Button href="https://github.com/Grumpyyash/MediFast" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
+                        <Button href="https://github.com/Grumpyyash/MediFast" className="button-1"  variant="success">Live Site</Button>{' '}
+                        </div>
+                        <p>A collaborative website developed while working in a team for a hackathon
+                         which provides complete medical assistance to people.<br /><br />
+                        Technologies used: HTML, CSS(Bootstrap), EJS, NODE JS, EXPRESS, MONGODB, PASSPORT JS, JWT
+                        </p>
+                      </div>                        
+                      </div>                      
                       </div>
                   </div>
                                     
@@ -90,24 +113,7 @@ class Projects extends React.Component {
                       </div>
                   </div>
 
-                  <div className="row wow bounceIn">
-                      <div className=" col-lg-12">
-                      <div className="about-me col-lg-10">
-                      <h3 className="text-area-h3">Project</h3>                      
-                      <div className="text-area">
-                        <div className="text-area-image col-lg-12">
-                        <a href="https://lmcp4.csb.app/"><img className="acm-project" src={require("./Images/keeper.png")} alt="google-keep"/></a><br /><br />
-                        <h5>Keeper App</h5><br />
-                        <Button href="https://github.com/Grumpyyash/Keeper-React" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
-                        <Button href="https://lmcp4.csb.app/" className="button-1"  variant="success">Live Site</Button>{' '}
-                        </div>
-                        <p>A plain simple keeper app capable of holding notes and much more.<br /><br />
-                        Technologies used: React JS
-                        </p>
-                      </div>                       
-                      </div>
-                      </div>
-                  </div>
+                  
                   </div>
         )
     }

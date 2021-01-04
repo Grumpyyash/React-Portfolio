@@ -140,17 +140,17 @@ h5 {
   color: white;
 }
 .html {
-  width: 90%;
+  width: 95%;
   background-color: #5fcb71;
   opacity: 0.8;
 }
 .js {
-  width: 65%;
+  width: 75%;
   background-color: #5fcb71;
   opacity: 0.8;
 }
 .react {
-  width: 75%;
+  width: 80%;
   background-color: #5fcb71;
   opacity: 0.8;
 }
@@ -170,7 +170,7 @@ h5 {
   opacity: 0.8;
 }
 .node {
-  width: 70%;
+  width: 75%;
   background-color: #5fcb71;
   opacity: 0.8;
 }
@@ -180,7 +180,17 @@ h5 {
   opacity: 0.8;
 }
 .git {
-  width: 70%;
+  width: 85%;
+  background-color: #5fcb71;
+  opacity: 0.8;
+}
+.jwt {
+  width: 75%;
+  background-color: #5fcb71;
+  opacity: 0.8;
+}
+.redux {
+  width: 60%;
   background-color: #5fcb71;
   opacity: 0.8;
 }

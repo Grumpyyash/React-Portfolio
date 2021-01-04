@@ -17,12 +17,8 @@ class MainContent extends React.Component {
                  <RightAbout />                
              </div>
              <hr className="hr-row"/>
-             <div className="test-div">
-              <h5 className="test-h5">TESTIMONIALS</h5>
-             </div>
-             <div className="row">
-               <Testimonial />
-             </div>
+             
+             
              <div className="contact-mail">
                <Contact />
              </div>
@@ -30,9 +26,7 @@ class MainContent extends React.Component {
                <h5>Have got something for me? Show off your Technical Blogs <i class="fas fa-cog"></i></h5>
                <button type="" class="btn btn-outline-success submit-button"><a className="anchor-blog" href="/blog">WRITE A BLOG</a></button>
              </div>
-             <div className="">
-               <Review />
-             </div>
+             
              <div className="row">
                  <div className="col-lg-12 footer-game">
                      <p className="footer-p">Bored of all the technical stuffs, Let's play a <a className="code-links" href="https://grumpyyash.github.io/simon-game/">game</a> or <a className="code-links" href="https://grumpyyash.github.io/My-music-player/#">music</a> or a <a className="code-links" href="https://grumpyyash.github.io/drum-kit/">band</a></p>
@@ -40,7 +34,7 @@ class MainContent extends React.Component {
              </div>
              <div className="row">
                  <div className="col-lg-12 footer">
-                     <p className="footer-p">Copyright © 2020 Yash Vardhan @ Spider-The Web Crawler</p>
+                     <p className="footer-p">Copyright © 2020 Yash Vardhan</p>
                  </div>
              </div>
              

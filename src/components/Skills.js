@@ -62,11 +62,19 @@ class Skills extends React.Component {
                        </div>
 
                        <div className="scores">
-                      <h5>NEXT JS, CHAKRA-UI</h5>
+                       <h5>PASSPORT AND JWT</h5>
                        <div class="container">
-                        <div class="skills chakra"></div>
+                        <div class="skills jwt"></div>
                        </div>
-                      </div>
+                       </div>
+
+                       <div className="scores">
+                       <h5>REDUX</h5>
+                       <div class="container">
+                        <div class="skills redux"></div>
+                       </div>
+                       </div>
+
 
                       <div className="scores">
                       <h5>MATERIAL-UI, MDBOOTSTRAP</h5>
