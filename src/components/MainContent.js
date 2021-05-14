@@ -34,7 +34,7 @@ class MainContent extends React.Component {
              </div>
              <div className="row">
                  <div className="col-lg-12 footer">
-                     <p className="footer-p">Copyright © 2020 Yash Vardhan</p>
+                     <p className="footer-p">Copyright © 2021 Yash Vardhan</p>
                  </div>
              </div>
              

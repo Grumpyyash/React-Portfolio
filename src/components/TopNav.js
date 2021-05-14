@@ -29,7 +29,7 @@ class TopNav extends React.Component {
                      <div className="button-div">
                          <div className="row">
                              <div className="col-sm-12">
-                             <Button className="button-1"  variant="success" href={require("./Images/resume.png")}><i class="fas fa-arrow-circle-right"></i> Resume</Button>{' '}
+                             <a href="https://drive.google.com/file/d/15QTV1Gu8kISgVqVKCiabKP9KbtDKA3ew/view?usp=sharing" target="_blank"><Button className="button-1"  variant="success"><i class="fas fa-arrow-circle-right"></i> Resume</Button></a>{' '}
                              <Button className="button-2" href="mailto:yash.19je0936@mech.iitism.ac.in"  variant="success"> <i class="fab fa-telegram-plane"></i> Contact Me</Button>{' '}
                              </div>
                              

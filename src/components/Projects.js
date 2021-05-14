@@ -13,12 +13,50 @@ class Projects extends React.Component {
         return (
             <div>
 
+                  <div className="row wow bounceIn">
+                      <div className=" col-lg-12">
+                      <div className="about-me col-lg-10">
+                      <h3 className="text-area-h3">ANNADATA</h3><br />                      
+                      <div className="text-area">
+                        <div className="text-area-image col-lg-12">
+                        <a href="https://github.com/orgs/AnnadataHackfest/dashboard"><img className="acm-project" src={require("./Images/crop.png")} alt="annadata"/></a><br /><br />
+                        <h5>ANNADATA</h5><br />
+                        <Button href="https://github.com/orgs/AnnadataHackfest/dashboard" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
+                        <Button href="https://github.com/orgs/AnnadataHackfest/dashboard" className="button-1"  variant="success">Live Project</Button>{' '}
+                        </div>
+                        <p>A complete cross-platform application for full assistance to farmers right from sowing till harvesting<br /><br />
+                        Technologies used: MERN (React Js, Redux, MongoDB, Node Js), Python, Falsk, PyTorch
+                        </p>
+                      </div>                        
+                      </div>
+                      </div>
+                  </div>
+
+                  <div className="row wow bounceIn">
+                      <div className=" col-lg-12">
+                      <div className="about-me col-lg-10">
+                      <h3 className="text-area-h3">RN Social App</h3><br />                      
+                      <div className="text-area">
+                        <div className="text-area-image col-lg-12">
+                        <a href="https://github.com/Grumpyyash/Native-SocialApp"><img className="acm-project-native" src={require("./Images/native.png")} alt="socialApp"/></a><br /><br />
+                        <h5>RN SocialApp</h5><br />
+                        <Button href="https://github.com/Grumpyyash/Native-SocialApp" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
+                        <Button href="https://github.com/Grumpyyash/Native-SocialApp" className="button-1"  variant="success">Live Project</Button>{' '}
+                        </div>
+                        <p>A progressive socialApp with Chat support, profile updates and add posts features built for both android and ios<br /><br />
+                        Technologies used: React-Native, Firebase
+                        </p>
+                      </div>                        
+                      </div>
+                      </div>
+                  </div>
+
 
 
             <div className="row wow bounceIn">
                       <div className=" col-lg-12">
                       <div className="about-me col-lg-10">
-                      <h3 className="text-area-h3">Latest Project</h3><br />                     
+                      <h3 className="text-area-h3">ACM Student Chapter</h3><br />                     
                       <div className="text-area">
                         <div className="text-area-image col-lg-12">
                         <a href="https://acm-iit-dhanbad.netlify.app/"><img className="acm-project" src={require("./Images/acm-port.png")} alt="acm-iit-dhanabd"/></a><br /><br />
@@ -37,7 +75,7 @@ class Projects extends React.Component {
                   <div className="row wow bounceIn">
                       <div className=" col-lg-12">                     
                       <div className="about-me col-lg-10">
-                      <h3 className="text-area-h3">Hackathon Project</h3>                      
+                      <h3 className="text-area-h3">MediFast</h3>                      
                       <div className="text-area">                      
                         <div className="text-area-image col-lg-12">
                         <a href="https://github.com/Grumpyyash/MediFast"><img className="acm-project" src={require("./Images/medifast-img.png")} alt="Medifast"/></a><br /><br />
@@ -57,7 +95,7 @@ class Projects extends React.Component {
                   <div className="row wow bounceIn">
                       <div className=" col-lg-12">                     
                       <div className="about-me col-lg-10">
-                      <h3 className="text-area-h3">MERN-Project</h3>                      
+                      <h3 className="text-area-h3">Admit-IT</h3>                      
                       <div className="text-area">                      
                         <div className="text-area-image col-lg-12">
                         <a href="https://shielded-caverns-83501.herokuapp.com/"><img className="acm-project" src={require("./Images/Admit-it.png")} alt="admit-it"/></a><br /><br />
@@ -77,7 +115,7 @@ class Projects extends React.Component {
                   <div className="row wow bounceIn">
                       <div className=" col-lg-12">
                       <div className="about-me col-lg-10">
-                      <h3 className="text-area-h3">MERN-Project</h3><br />                      
+                      <h3 className="text-area-h3">ReEngine-IT</h3><br />                      
                       <div className="text-area">
                         <div className="text-area-image col-lg-12">
                         <a href="https://sleepy-retreat-60004.herokuapp.com/"><img className="acm-project" src={require("./Images/Re-engine.png")} alt="reengine-it"/></a><br /><br />
@@ -93,7 +131,7 @@ class Projects extends React.Component {
                       </div>
                   </div>
 
-                  <div className="row wow bounceIn">
+                  {/* <div className="row wow bounceIn">
                       <div className=" col-lg-12">
                       <div className="about-me col-lg-10">
                       <h3 className="text-area-h3">Project</h3>
@@ -111,7 +149,7 @@ class Projects extends React.Component {
                       </div>                       
                       </div>
                       </div>
-                  </div>
+                  </div> */}
 
                   
                   </div>

@@ -13,21 +13,21 @@ class Skills extends React.Component {
                       <p className="text-area-lang">Languages I speak..</p><br />
                       <div className="text-area">
                       <div className="scores">
-                      <h5>HTML, CSS(BOOTSTRAP)</h5>
+                      <h5>HTML, CSS(BOOTSTRAP), Material UI</h5>
                        <div class="container">
                         <div class="skills html"></div>
                        </div>
                       </div>
 
                       <div className="scores">
-                       <h5>JAVASCRIPT(JQUERY)</h5>
+                       <h5>JAVASCRIPT(JQUERY), EJS</h5>
                        <div class="container">
                         <div class="skills js"></div>
                        </div>  
                        </div>
 
                        <div className="scores">
-                       <h5>REACT JS</h5>
+                       <h5>REACT JS, Redux</h5>
                        <div class="container">
                         <div class="skills react"></div>
                        </div> 
@@ -41,7 +41,7 @@ class Skills extends React.Component {
                        </div>
 
                        <div className="scores">
-                       <h5>EJS, MONGODB(MONGOOSE)</h5>
+                       <h5>MONGODB(MONGOOSE), MySQL</h5>
                        <div class="container">
                         <div class="skills ejs"></div>
                        </div>
@@ -69,17 +69,17 @@ class Skills extends React.Component {
                        </div>
 
                        <div className="scores">
-                       <h5>REDUX</h5>
+                       <h5>React-Native, Firebase</h5>
                        <div class="container">
-                        <div class="skills redux"></div>
+                        <div class="skills native"></div>
                        </div>
                        </div>
 
 
                       <div className="scores">
-                      <h5>MATERIAL-UI, MDBOOTSTRAP</h5>
+                      <h5>Gatsby Js, Jekyll</h5>
                        <div class="container">
-                        <div class="skills mdbootstrap"></div>
+                        <div class="skills gatsby"></div>
                        </div>
                       </div>
                       </div>                       

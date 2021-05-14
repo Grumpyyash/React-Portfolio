@@ -6,15 +6,15 @@ class Contact extends React.Component {
         return (
            <div className="contact-form wow bounceIn">
            <h5 className="">CONTACT ME</h5>
-             <form className="contact-form" action="mailto:yashvardhan513@gmail.com.com" method="post" enctype="text/plain">
+             <form className="contact-form" action="https://formspree.io/f/mwkalbvw" method="post">
                
-                 <input className="input-name" type="text" placeholder="Your Name" name="name"/><br />
-               
-               
-                 <input className="input-email" type="email" placeholder="Your Email" name="email"/><br />
+                 <input className="input-name" type="text" placeholder="Your Name" name="name" required/><br />
                
                
-                 <textarea className="input-message" type="text" name="message" placeholder="Your Message"></textarea><br />
+                 <input className="input-email" type="email" placeholder="Your Email" name="email" required/><br />
+               
+               
+                 <textarea className="input-message" type="text" name="message" placeholder="Your Message" required /><br />
                           
                <button type="submit" class="btn btn-outline-success submit-button">MESSAGE ME <i class="fab fa-telegram-plane"></i></button>
             </form>

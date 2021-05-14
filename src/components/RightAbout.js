@@ -11,6 +11,7 @@ import Apps from "./Apps";
 import Parti from "./Parti";
 import Github from "./Github";
 import Code from "./Code";
+import OpenSource from "./OpenSource";
 import { Button } from 'react-bootstrap';
 
 class RightAbout extends React.Component {
@@ -54,6 +55,10 @@ class RightAbout extends React.Component {
                   
                   <div className="row wow bounceIn">
                       <Achievement />
+                  </div>
+
+                  <div className="row wow bounceIn">
+                      <OpenSource />
                   </div>
                   
                   <div className="row wow bounceIn">

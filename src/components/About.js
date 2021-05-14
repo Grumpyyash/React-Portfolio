@@ -16,14 +16,13 @@ class About extends React.Component {
             <h3 className="text-area-h3">About Me</h3><br />
             <div className="text-area">
                 <p>Hi There! <br />
-                 Myself Yash Vardhan, a second year undergrad at IIT(ISM)
-                 Dhanbad with Mathematics and Computing as majors. I am a tech enthusiast
-                 and I like to be updated with the newer technologies.
-                 I keep it simple and enjoy the challenges encountered along the way and try to learn from them.
-                 My interest lies primarily in the field of Web Development,
-                 both front and back-end preferably MERN-stack. 
-                 I am also interested in Competitive Programming.
-                 Apart from these I love Cricket and chess and enjoy deep discussions over them.</p>
+                 I am Yash Vardhan, a second year undergraduate at IIT(ISM)
+                 Dhanbad with Mathematics and Computing as majors.
+                 My interest lies primarily in the field of Full-Stack Development,
+                 preferably MERN stack. 
+                 I am also interested in Competitive Programming. Recently, I have been putting my hands
+                 over App Development with React-Native
+                 Apart from these I love Cricket and Chess</p>
             </div>                        
             </div>
             </div>

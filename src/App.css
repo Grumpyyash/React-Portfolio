@@ -117,6 +117,12 @@ h5 {
   max-height: 400px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
+.acm-project-native {
+  height: 300px;
+  width: auto;
+  max-height: 400px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
 .left-button {
   margin-left: 44%;
   margin-bottom: 3%;
@@ -181,6 +187,16 @@ h5 {
 }
 .git {
   width: 85%;
+  background-color: #5fcb71;
+  opacity: 0.8;
+}
+.gatsby {
+  width: 85%;
+  background-color: #5fcb71;
+  opacity: 0.8;
+}
+.native {
+  width: 65%;
   background-color: #5fcb71;
   opacity: 0.8;
 }

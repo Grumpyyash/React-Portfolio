@@ -11,10 +11,21 @@ class Parti extends React.Component {
                       <div className="col-lg-10 work-exp">
                       <h3 className="text-area-h3"><i class="fas fa-award"></i> Participations</h3><br />
                       <div className="text-area">
+                      
                        <h5>FallFest'20 ACM IIT(ISM)</h5>
-                       <p>WINNER(First Place)</p>
+                       <p>Winner(First Place)</p>
+
+                       <h5>HackFest'21 IIT(ISM)</h5>
+                       <p>Third Runner-up</p>
+
+                       <h5>HackOverFlow NIT DGP</h5>
+                       <p>First Runner-up</p>
+
+                       <h5>CodeShashtra'21 DJCSI</h5>
+                       <p>Finalists</p>
+
                        <h5>SPIDER'20 BIT SINDRI</h5>
-                       <p>Among 5 Finalists</p>
+                       <p>Finalists</p>
                        
                       </div>                       
                       </div>
