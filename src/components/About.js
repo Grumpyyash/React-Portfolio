@@ -21,8 +21,8 @@ class About extends React.Component {
                  My interest lies primarily in the field of Full-Stack Development,
                  preferably MERN stack. 
                  I am also interested in Competitive Programming. Recently, I have been putting my hands
-                 over App Development with React-Native
-                 Apart from these I love Cricket and Chess</p>
+                 over App Development with React-Native.
+                 Apart from these I love playing Cricket and Chess</p>
             </div>                        
             </div>
             </div>

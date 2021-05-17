@@ -9,7 +9,7 @@ class Courses extends React.Component {
         return (
             <div className=" col-lg-12">
                       <div className="col-lg-10 work-exp">
-                      <h3 className="text-area-h3"><i class="far fa-cog"></i> Courses Undertaken</h3><br />
+                      <h3 className="text-area-h3"><i class="far fa-cog"></i> Certifications</h3><br />
                       <div className="text-area">
                        <h5>Web Development Bootcamp</h5>
                        <p>UDEMY (-Angela Yu)</p>

@@ -25,7 +25,7 @@ class Projects extends React.Component {
                         <Button href="https://github.com/orgs/AnnadataHackfest/dashboard" className="button-1"  variant="success">Live Project</Button>{' '}
                         </div>
                         <p>A complete cross-platform application for full assistance to farmers right from sowing till harvesting<br /><br />
-                        Technologies used: MERN (React Js, Redux, MongoDB, Node Js), Python, Falsk, PyTorch
+                        <strong>Technologies used:</strong> Python, Flask, PyTorch, MERN-Stack (React Js, Redux, MongoDB, Node Js) 
                         </p>
                       </div>                        
                       </div>
@@ -43,8 +43,8 @@ class Projects extends React.Component {
                         <Button href="https://github.com/Grumpyyash/Native-SocialApp" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
                         <Button href="https://github.com/Grumpyyash/Native-SocialApp" className="button-1"  variant="success">Live Project</Button>{' '}
                         </div>
-                        <p>A progressive socialApp with Chat support, profile updates and add posts features built for both android and ios<br /><br />
-                        Technologies used: React-Native, Firebase
+                        <p>A progressive socialApp with Chat support, profile updates and add posts features for both android and ios<br /><br />
+                        <strong>Technologies used:</strong> React-Native, Firebase
                         </p>
                       </div>                        
                       </div>
@@ -59,13 +59,13 @@ class Projects extends React.Component {
                       <h3 className="text-area-h3">ACM Student Chapter</h3><br />                     
                       <div className="text-area">
                         <div className="text-area-image col-lg-12">
-                        <a href="https://acm-iit-dhanbad.netlify.app/"><img className="acm-project" src={require("./Images/acm-port.png")} alt="acm-iit-dhanabd"/></a><br /><br />
+                        <a href="http://iitism.acm.org/"><img className="acm-project" src={require("./Images/acm-port.png")} alt="acm-iit-dhanabd"/></a><br /><br />
                         <h5>ACM-IIT(ISM) Dhanbad official Website</h5><br />
                         <Button href="https://github.com/Hirdeshgupta/Website-of-ACM-In-IIT-ISM-DHANBAD" className="button-1"  variant="success">More <i class="fas fa-external-link-alt"></i></Button>{' '}
-                        <Button href="https://acm-iit-dhanbad.netlify.app/" className="button-1"  variant="success">Live Site</Button>{' '}
+                        <Button href="http://iitism.acm.org/" className="button-1"  variant="success">Live Site</Button>{' '}
                         </div>
                         <p>IIT(ISM) Dhanbad ACM chapter official Website developed by the students of IIT(ISM) Dhanbad <br /><br/>
-                        Technologies used: ReactJS, React-Bootstrap, MDBootstrap, Firebase.
+                        <strong>Technologies used:</strong> ReactJS, MDBootstrap, Firebase
                         </p>
                       </div>                      
                       </div>
@@ -85,7 +85,7 @@ class Projects extends React.Component {
                         </div>
                         <p>A collaborative website developed while working in a team for a hackathon
                          which provides complete medical assistance to people.<br /><br />
-                        Technologies used: HTML, CSS(Bootstrap), EJS, NODE JS, EXPRESS, MONGODB, PASSPORT JS, JWT
+                         <strong>Technologies used:</strong> Bootstrap, EJS, NODE JS, EXPRESS, MONGOOSE, JWT
                         </p>
                       </div>                        
                       </div>                      
@@ -105,7 +105,7 @@ class Projects extends React.Component {
                         </div>
                         <p>A collaborative website developed for the community of people to share something out of their hearts out which they
                         won't have been able to say otherwise.<br /><br />
-                        Technologies used: HTML, CSS(Bootstrap), EJS, NODE JS, EXPRESS, MONGODB, MATERIAL-UI
+                        <strong>Technologies used:</strong> EJS, NODE JS, EXPRESS, MONGOOSE 
                         </p>
                       </div>                        
                       </div>                      
@@ -124,7 +124,7 @@ class Projects extends React.Component {
                         <Button href="https://sleepy-retreat-60004.herokuapp.com/" className="button-1"  variant="success">Live Site</Button>{' '}
                         </div>
                         <p>A simple prototype of Reselling application to enable consumers and sellers to provide with an interactive interface.<br /><br />
-                        Technologies used: React JS, MongoDB, Reactstrap, Node(Express), MDBootstrap
+                        <strong>Technologies used:</strong> NODE JS, JQUERY, Google-O-Auth
                         </p>
                       </div>                        
                       </div>
